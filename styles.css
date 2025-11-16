@@ -29,7 +29,7 @@ aside {
   max-width: 22rem;
   background: var(--dark);
   color: #fff;
-  padding: 2.5rem 2rem 2.5rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -72,7 +72,8 @@ aside {
 }
 
 .menu-list a:hover,
-.menu-list a:focus {
+.menu-list a:focus,
+.menu-list a.active {
   background: rgba(240, 179, 90, 0.15);
   border-color: var(--accent);
 }
@@ -259,9 +260,5 @@ article ul li {
   aside,
   main {
     width: 100%;
-  }
-
-  aside {
-    border-radius: 20px 20px 0 0;
   }
 }
