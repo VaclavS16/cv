@@ -8,6 +8,38 @@
 </head>
 <body>
   <aside>
+    <div class="terminal-background" aria-hidden="true">
+      <div class="terminal-header">
+        <span class="terminal-dot dot-red"></span>
+        <span class="terminal-dot dot-yellow"></span>
+        <span class="terminal-dot dot-green"></span>
+        <span class="terminal-title">vitest --watch</span>
+      </div>
+      <div class="terminal-body">
+        <p class="terminal-line" style="--delay:0s">
+          <span class="terminal-prompt">$</span> vitest run --reporter=dot
+        </p>
+        <p class="terminal-line" style="--delay:1.4s">Vitest v1.5.0 · jsdom</p>
+        <p class="terminal-line" style="--delay:2.6s">Found 4 files. Running 12 tests.</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:4s">
+          <span>✓</span> profile.spec.ts › renders profile summary
+        </p>
+        <p class="terminal-line terminal-line--pass" style="--delay:5.4s">
+          <span>✓</span> sidebar.spec.ts › toggles menu sections
+        </p>
+        <p class="terminal-line terminal-line--pass" style="--delay:6.8s">
+          <span>✓</span> contact.spec.ts › validates links
+        </p>
+        <p class="terminal-line terminal-line--pass" style="--delay:8.2s">
+          <span>✓</span> layout.spec.ts › matches snapshot
+        </p>
+        <p class="terminal-line" style="--delay:9.6s">Tests 12 passed (12)</p>
+        <p class="terminal-line" style="--delay:10.6s">Time 1.34s (in watch mode)</p>
+        <p class="terminal-line terminal-line--watch" style="--delay:11.6s">
+          Watching for file changes<span class="terminal-cursor"></span>
+        </p>
+      </div>
+    </div>
     <div>
       <img src="avatar.jpeg" alt="Portrait of Václav Štencl" class="avatar" />
     </div>
