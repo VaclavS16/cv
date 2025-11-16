@@ -104,9 +104,13 @@ aside {
 
 .skills-group span {
   font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--muted);
   line-height: 1.5;
   display: block;
+}
+
+.sidebar-section .skills-group span {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .info-list li {
@@ -115,9 +119,13 @@ aside {
 }
 
 .info-list span {
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--muted);
   margin-left: 0.35rem;
   font-size: 0.85rem;
+}
+
+.sidebar-section .info-list span {
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .badge-list {
@@ -127,11 +135,18 @@ aside {
 }
 
 .badge {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(45, 49, 58, 0.08);
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
   font-size: 0.85rem;
+  border: 1px solid rgba(45, 49, 58, 0.18);
+  color: var(--text);
+}
+
+.sidebar-section .badge {
+  background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
 }
 
 main {
