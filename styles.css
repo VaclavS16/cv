@@ -31,7 +31,7 @@ aside {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   position: relative;
   overflow: hidden;
   isolation: isolate;
@@ -164,10 +164,10 @@ aside > *:not(.terminal-background) {
 }
 
 .sidebar-section h2 {
+  padding: 0.5rem;
   font-size: 0.95rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  margin: 0 0 1rem;
   color: #f9fafc;
   background-color: var(--dark);
   border-radius: 100px;
@@ -188,7 +188,6 @@ aside > *:not(.terminal-background) {
   text-decoration: none;
   font-size: 0.9rem;
   letter-spacing: 0.05em;
-  transition: background-color 0.5s ease, border-color 0.5s ease;
   background: linear-gradient(45deg, var(--dark) 40%, transparent);
   border-radius: 100px;
 }
@@ -196,7 +195,7 @@ aside > *:not(.terminal-background) {
 .menu-list a:hover,
 .menu-list a:focus,
 .menu-list a.active {
-  background: rgba(240, 179, 90, 0.15);
+  background: var(--dark-muted);
   border-color: var(--accent);
 }
 
@@ -209,17 +208,20 @@ aside > *:not(.terminal-background) {
 }
 
 .contact-list {
-  background-color: var(--dark);
   width: fit-content;
 }
 
+
 .contact-list li {
+  padding: 0.5rem 0.75rem;
+  color: #f9fafc;
+  background: linear-gradient(45deg, var(--dark) 40%, transparent);
+  border-radius: 100px;
+}
+
+.contact-list li, .contact-list a {
   display: flex;
-  align-items: center;
   gap: 0.65rem;
-  margin-bottom: 0.75rem;
-  font-size: 0.95rem;
-  line-height: 1.4;
 }
 
 .contact-list a {
