@@ -17,25 +17,66 @@
       </div>
       <div class="terminal-body">
         <p class="terminal-line" style="--delay:0s">
-          <span class="terminal-prompt">$</span> vitest run --reporter=dot
+          <span class="terminal-prompt">$</span> pnpm run ship:cv
         </p>
-        <p class="terminal-line" style="--delay:1.4s">Vitest v1.5.0 · jsdom</p>
-        <p class="terminal-line" style="--delay:2.6s">Found 4 files. Running 12 tests.</p>
+        <p class="terminal-line" style="--delay:0.8s">&gt; turbo run lint test build pdf --filter=cv</p>
+        <p class="terminal-line" style="--delay:1.6s">pipeline cv-main @ commit 1a2b3c4</p>
+        <p class="terminal-line" style="--delay:2.4s">Node 20.11 · pnpm 9.1 · macOS arm64</p>
+        <p class="terminal-line" style="--delay:3.2s">bootstrapping workspace modules</p>
         <p class="terminal-line terminal-line--pass" style="--delay:4s">
-          <span>✓</span> profile.spec.ts › renders profile summary
+          <span>✓</span> 312 packages restored from cache
         </p>
-        <p class="terminal-line terminal-line--pass" style="--delay:5.4s">
-          <span>✓</span> sidebar.spec.ts › toggles menu sections
+        <p class="terminal-line" style="--delay:4.8s">linting source files...</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:5.6s">
+          <span>✓</span> eslint › zero warnings, carry on
         </p>
-        <p class="terminal-line terminal-line--pass" style="--delay:6.8s">
-          <span>✓</span> contact.spec.ts › validates links
+        <p class="terminal-line" style="--delay:6.4s">running vitest --reporter=dot</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:7.2s">
+          <span>✓</span> profile.spec.ts › renders hero summary
         </p>
-        <p class="terminal-line terminal-line--pass" style="--delay:8.2s">
+        <p class="terminal-line terminal-line--pass" style="--delay:8s">
+          <span>✓</span> contact.spec.ts › validates markup
+        </p>
+        <p class="terminal-line terminal-line--pass" style="--delay:8.8s">
           <span>✓</span> layout.spec.ts › matches snapshot
         </p>
-        <p class="terminal-line" style="--delay:9.6s">Tests 12 passed (12)</p>
-        <p class="terminal-line" style="--delay:10.6s">Time 1.34s (in watch mode)</p>
-        <p class="terminal-line terminal-line--watch" style="--delay:11.6s">
+        <p class="terminal-line" style="--delay:9.6s">Coverage 99% Stmts · 100% Branches</p>
+        <p class="terminal-line" style="--delay:10.4s">generating design tokens...</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:11.2s">
+          <span>✓</span> tokens synced to styles.css
+        </p>
+        <p class="terminal-line" style="--delay:12s">vite build --mode=resume</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:12.8s">
+          <span>✓</span> chunks optimized (17kb gz)
+        </p>
+        <p class="terminal-line" style="--delay:13.6s">storybook build --docs</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:14.4s">
+          <span>✓</span> 0 accessibility regressions
+        </p>
+        <p class="terminal-line" style="--delay:15.2s">rendering printable cv via puppeteer</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:16s">
+          <span>✓</span> cv.pdf exported (428kb)
+        </p>
+        <p class="terminal-line" style="--delay:16.8s">uploading build artifacts</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:17.6s">
+          <span>✓</span> preview bundle uploaded
+        </p>
+        <p class="terminal-line" style="--delay:18.4s">triggering lighthouse audit</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:19.2s">
+          <span>✓</span> perf 99 | access 100 | seo 100
+        </p>
+        <p class="terminal-line" style="--delay:20s">notifying hiring managers</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:20.8s">
+          <span>✓</span> slack #cv-drop ping sent
+        </p>
+        <p class="terminal-line" style="--delay:21.6s">preview url https://cv.dev/stencl</p>
+        <p class="terminal-line" style="--delay:22.4s">waiting on edge deploy...</p>
+        <p class="terminal-line terminal-line--pass" style="--delay:23.2s">
+          <span>✓</span> deploy complete region eu-central
+        </p>
+        <p class="terminal-line" style="--delay:24s">ship log archived to Notion</p>
+        <p class="terminal-line" style="--delay:24.8s">ready for next push</p>
+        <p class="terminal-line terminal-line--watch" style="--delay:25.6s">
           Watching for file changes<span class="terminal-cursor"></span>
         </p>
       </div>
